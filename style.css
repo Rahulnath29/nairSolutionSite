@@ -1,0 +1,188 @@
+
+h1,h2,h3,h4{
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+
+.card:hover{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.card > a{
+    padding-top: 3em;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.aboutWallpaper{
+    width: 100%;
+    height: auto;
+}
+
+.serviceWallpaper{
+    width: 100%;
+    height: auto;  
+}
+
+
+.modalbg{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailbutton{
+    margin: auto;
+    width: 20%;
+}
+
+.loginpage{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.userimage{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -37px;
+    left: calc(50% - 50px);
+    
+}
+
+.userbox{
+    padding: 70px 30px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);   
+
+    
+}
+.userbox p{
+    font-weight: bold;
+}
+
+.userbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.userbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.userbox button[type="submit"]{
+   height: 40px;
+   font-size: 18px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+}
+
+.userbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.passwordpage{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.passwordbox{
+    padding: 70px 30px;
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.passwordbox p{
+    font-weight: bold;
+}
+
+.passwordbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.passwordbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.passwordbox button[type="submit"]{
+    height: 40px;
+    font-size: 18px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+ }
+
+ @media only screen and (max-width: 600px) and (min-width: 320px) {
+
+    h1,h2,h3,h4,h5{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+ }
+

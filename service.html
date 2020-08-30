@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Nair Solution</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ml-3 mr-4 pt-2">
+        <img src="./images/nair solution1.png" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./service.html">Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Modal for booking-->
+    <div class=" modal fade" id="bookModal" tabindex="-1" role="dialog" aria-labelledby="bookModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content modalbg ">
+                <div class="modal-header bg-info">
+                    <h2 class="modal-title text-light" id="bookModalLabel">Book Now</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modalform modal-body">
+                    <form>
+                        <div class="row mb-4">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+
+                                <input type="number" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="10-digit mobile number">
+                            </div>
+
+                            <div class="form-group">
+
+                                <textarea type="text" class="form-control" id="inputAddress" placeholder="Locality"
+                                    rows="2"></textarea>
+                            </div>
+                            <div class="form-group">
+
+                                <textarea type="text" class="form-control" id="inputAddress2"
+                                    placeholder="Address (Area and Street)" rows="2"></textarea>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+
+                                    <input type="text" class="form-control" id="inputCity" placeholder="City/Town">
+                                </div>
+                                <div class="form-group col-md-5">
+
+                                    <select id="inputState" class="form-control">
+                                        <option value="select state">select state</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chandigarh">Chandigarh</option>
+                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                        <option value="Daman and Diu">Daman and Diu</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Lakshadweep">Lakshadweep</option>
+                                        <option value="Puducherry">Puducherry</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-3">
+
+                                    <input type="text" class="form-control" id="inputZip" placeholder="Pincode">
+                                </div>
+                                <div class="form-group col-md-12">
+
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                        placeholder="Tell us about the job"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div><img src="./images/sr.jpg" alt="serviceWallpaper" class="serviceWallpaper"></div>
+
+        <div class="card mb-3 mt-5" >
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="./images/sd1.jpg" class="card-img" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Electrical Works</h3>
+                        <div class="dropdown-divider"></div>
+                        <p class="card-text mt-3">Woks related with installing any wiring, cable, conduit, trunking,
+                            isolators, switch socket outlets,
+                            power switches or any other fittings for transmission of electricity for lighting, heating,
+                            cooling or
+                            other similar purposes in a building. To help you avail various services related to
+                            Electrical works
+                            there are our staff who is well experienced in all these works. And for more detail contact
+                            Us.</p>
+
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mt-5" style="max-width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Plumbing</h3>
+                        <div class="dropdown-divider"></div>
+                        <p class="card-text mt-3">Woks related with installation and repair of pipes that supply water
+                            and gas to. And we also install
+                            plumbing fixtures such as bathtubs, sinks, and toilets, and appliances, including
+                            dishwashers and
+                            washing machines. Experienced plumbers train apprentices and supervise helpers.To help you
+                            avail various
+                            services related to Plumbing Works there are our staff who is well experienced in all these
+                            works. And
+                            for more detail contact Us.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book
+                            Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/sd2.jpg" class="card-img" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mt-5" style="max-width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="./images/sd3.jpg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Welding Works</h3>
+                        <div class="dropdown-divider"></div>
+                        <p class="card-text mt-3">Welding is a fabrication process that joins materials, usually metals
+                            or thermoplastics, by using high
+                            heat to melt the parts together and allowing them to cool, causing fusion. Welding is
+                            distinct from
+                            lower temperature metal-joining techniques such as brazing and soldering, which do not melt
+                            the base
+                            metal.To help you avail various services related to Welding Works there are our staff who is
+                            well
+                            experienced in all these works. And for more detail contact Us.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mt-5" style="max-width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">RO Solution</h3>
+                        <div class="dropdown-divider"></div>
+                        <p class="card-text mt-3">A good water purifier is a necessity of every household, as it not
+                            only provides clean and purified
+                            drinking water, but also prevents us from getting sick due to water borne diseases. It is
+                            not enough to
+                            just purchase a water purifier, but maintaining it properly and seeking RO treatment service
+                            is very
+                            much required to keep our RO purifiers serving us for longer. To help you avail various
+                            services related
+                            to RO water purifiers there are our staff who is well experienced in all these works. And
+                            for more
+                            detail contact Us.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book
+                            Now</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./images/sd4.jpg" class="card-img" alt="...">
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3 mt-5 mb-5" style="max-width: 100%;">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="./images/sd5.jpeg" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">CNC & VMC Maintenance</h3>
+                        <div class="dropdown-divider"></div>
+                        <p class="card-text mt-3">We have well experienced team of engineer & Workers to attend
+                            breakdown with minimum breakdown time of
+                            your machine. CNC VMC Axis Slide Maintenance - Ball-screw Repair & Maintenance, Axis
+                            Backlash
+                            elimination, Ball-screw End supports Bearing Replacement & Axis Motor Servicing.</p>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#bookModal">Book
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdown-divider"></div>
+        <div class="dropdown-divider"></div>
+
+        <footer class="my-5 pt-3 text-muted text-center text-big">
+
+            <h3 class="mt-2 mb-4">2020 - Nair Solution&copy</h3>
+            <address>Bhiwadi Rajasthan <br> 301019</address>
+
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+
+        </footer>
+    </div>
+
+
+    </div>
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
